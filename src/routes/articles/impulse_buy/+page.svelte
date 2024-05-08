@@ -3,7 +3,7 @@
     import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
 </script>
 
-<div class="my-1 md:my-0">
+<div class="">
     <img class="tear-north" src={tear_south_base_offwhite} alt="">
     <section class="bg-[#F8F1E7] px-4 py-4 md:py-8 md:flex md:justify-center md:content-center md:items-center gap-4 relative z-50">
         <div class="flex flex-col sm:mx-36 md:mx-44 lg:mx-64 xl:mx-96">

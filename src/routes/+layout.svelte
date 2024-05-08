@@ -31,7 +31,7 @@
                 <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option" href="/">
                     <li>home</li>
                 </a>
-                <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option" href="/articles/impulse_buy">
+                <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option" href="/articles">
                     <li>articles</li>
                 </a>
                 <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option" href="/about">

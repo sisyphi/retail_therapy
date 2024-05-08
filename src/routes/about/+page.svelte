@@ -11,7 +11,7 @@
     import tear_south_sm_offwhite from '$lib/images/tear-south-sm-offwhite.png';
 </script>
 
-<section class="my-4">
+<section class="">
     <img class="tear-north" src={tear_south_base_offwhite} alt="">
     <div class="relative z-40 bg-[#F8F1E7] md:-mb-24">
         <div class="flex flex-col items-center justify-center max-w-2xl m-auto md:grid md:grid-cols-4">

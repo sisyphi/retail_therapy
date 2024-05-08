@@ -9,7 +9,7 @@
     import tear_south_sm_offwhite from '$lib/images/tear-south-sm-offwhite.png';
 </script>
 
-<section class="my-4">
+<section class="">
     <img class="tear-north" src={tear_south_base_offwhite} alt="">
     <div class="relative z-40 flex flex-row justify-center py-4 bg-[#F8F1E7]">
         <div class="flex items-center -mr-32 desktop max-w-80">
