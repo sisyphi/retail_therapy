@@ -51,7 +51,7 @@
 <slot></slot>
 
 <footer>
-    <img class="relative z-0 tear-north" src={tear_south_base_offwhite} alt="">
+    <!-- <img class="relative z-0 tear-north" src={tear_south_base_offwhite} alt="">
     <div class="relative z-50 bg-[#F8F1E7]">
         <div class="">
             <div class="">
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </footer>
 
 <style>
