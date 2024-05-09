@@ -24,7 +24,7 @@
                     <div class="relative z-50 px-8 bg-white">
                         <h1 class="pb-6 text-5xl font-bold">Hi, I'm Ysa!</h1>
                         <h2 class="pb-3 font-medium text-md "><span class="italic font-bold">about me</span>  •  YSABEL DINSAY</h2>
-                        <p class="text-xl font-medium">Thanks for stopping by! Here's the story of my life.</p>
+                        <p class="text-xl font-medium">Thanks for stopping by! Here's a bit about me.</p>
                     </div>
                     <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
                 </div>
@@ -66,7 +66,7 @@
             <div class="items-center hidden -mr-32 md:flex desktop max-w-80">
                 <img src={boquet_left} alt="">
             </div>
-            <div class="flex flex-col items-center justify-center max-w-xl mx-auto">
+            <div class="flex flex-col items-center justify-center max-w-xl mx-auto lg:mx-0">
                 <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
                 <div class="relative z-50 max-w-4xl px-8 bg-white">
                     <h1 class="pb-6 text-2xl font-bold">Retail Therapy is for you</h1>
