@@ -7,11 +7,12 @@
     import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
     import tear_south_sm_white from '$lib/images/tear-south-sm-white.png';
     import tear_south_sm_offwhite from '$lib/images/tear-south-sm-offwhite.png';
+    
+    import SectionWrapper from '$lib/components/SectionWrapper.svelte';
 </script>
 
-<section class="">
-    <img class="tear-north" src={tear_south_base_offwhite} alt="">
-    <div class="relative z-40 flex flex-row justify-center py-4 bg-[#F8F1E7]">
+<SectionWrapper>
+    <div class="relative z-40 flex flex-row justify-center py-4">
         <div class="flex items-center -mr-32 desktop max-w-80">
             <img src={boquet_left} alt="">
         </div>
@@ -29,8 +30,7 @@
             <img src={boquet_right} alt="">
         </div>
     </div>
-    <img class="tear-south" src={tear_south_base_offwhite} alt="">
-</section>
+</SectionWrapper>
 
 <section class="my-4">
     <div class="md:-mt-16 lg:-mt-16 md:flex md:flex-row md:justify-center">
@@ -58,8 +58,7 @@
     </div>
 </section>
 
-<section >
-    <img class="z-10 tear-north" src={tear_south_base_offwhite} alt="">
+<SectionWrapper>
     <div class="overflow-clip py-6 md:flex md:justify-center bg-[#F8F1E7]">
         <div class="justify-center mx-auto mt-4 -mb-32 md:-mb-0 max-w-96 md:my-4 md:mx-8">
             <img class="relative z-10 tear-north-sm" src={tear_south_sm_white} alt="">
@@ -81,8 +80,7 @@
             <img class="relative z-10 tear-south-sm" src={tear_south_sm_white} alt="">
         </div>
     </div>
-    <img class="z-10 tear-south" src={tear_south_base_offwhite} alt="">
-</section>
+</SectionWrapper>
 
 <style>
     /* your styles go here */
