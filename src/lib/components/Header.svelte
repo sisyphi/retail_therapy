@@ -1,9 +1,9 @@
 <script>
-    import Logo from '$lib/components/Logo.svelte';
     import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
+
+    import Logo from '$lib/components/Logo.svelte';
     
-    
-    let isMenuOpen = false;
+    export let isMenuOpen = false;
 
     function toggleMenu() {
         isMenuOpen = !isMenuOpen;

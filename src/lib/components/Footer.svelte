@@ -1,17 +1,20 @@
 <script>
     import ig_icon_graphic from '$lib/images/ig-icon-graphic.png';
     import linkedin_icon_graphic from '$lib/images/linkedin-icon-graphic.png';
+    import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
+
+    import Logo from '$lib/components/Logo.svelte';
 </script>
 
-<footer>
-    <!-- <img class="relative z-0 tear-north" src={tear_south_base_offwhite} alt="">
+<!-- <footer>
+    <img class="relative z-0 tear-north" src={tear_south_base_offwhite} alt="">
     <div class="relative z-50 bg-[#F8F1E7]">
         <div class="">
             <div class="">
                 <div>
                     <a on:click={()=>(isMenuOpen = false)} href="/">
                         <logo class="flex">
-                            <svelte:component this={rt_logo} />
+                            <svelte:component this={Logo} />
                         </logo>
                     </a>
                 </div>
@@ -24,5 +27,5 @@
                 </div>
             </div>
         </div>
-    </div> -->
-</footer>
+    </div>
+</footer> -->
