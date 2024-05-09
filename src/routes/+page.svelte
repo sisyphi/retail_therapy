@@ -4,7 +4,6 @@
     import boquet_right from '$lib/images/boquet-right.png';
     import boquet_up from '$lib/images/boquet-up.png';
     import boquet_down from '$lib/images/boquet-down.png';
-    import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
     import tear_south_sm_white from '$lib/images/tear-south-sm-white.png';
     import tear_south_sm_offwhite from '$lib/images/tear-south-sm-offwhite.png';
     
