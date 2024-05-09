@@ -1,3 +1,8 @@
+<script>
+    import ig_icon_graphic from '$lib/images/ig-icon-graphic.png';
+    import linkedin_icon_graphic from '$lib/images/linkedin-icon-graphic.png';
+</script>
+
 <footer>
     <!-- <img class="relative z-0 tear-north" src={tear_south_base_offwhite} alt="">
     <div class="relative z-50 bg-[#F8F1E7]">
