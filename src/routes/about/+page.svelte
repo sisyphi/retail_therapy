@@ -6,83 +6,78 @@
     import boquet_right from '$lib/images/boquet-right.png';
     import boquet_up from '$lib/images/boquet-up.png';
     import boquet_down from '$lib/images/boquet-down.png';
-    import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
     import tear_south_sm_white from '$lib/images/tear-south-sm-white.png';
-    import tear_south_sm_offwhite from '$lib/images/tear-south-sm-offwhite.png';
+
+    import SectionWrapper from '$lib/components/SectionWrapper.svelte';
 </script>
 
-<section class="">
-    <img class="tear-north" src={tear_south_base_offwhite} alt="">
-    <div class="bg-[#F8F1E7]">
-        <div class="relative z-40 md:-mb-24">
-            <div class="flex flex-col items-center justify-center max-w-2xl m-auto md:grid md:grid-cols-4">
-                <div class="-mb-8 -ml-8 md:mb-8 md:-ml-32 md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-2">
-                    <img src={about_me} alt="">
-                </div>
-                <div class="max-w-96 md:col-start-3 md:col-end-5 md:row-start-1 md:row-end-2">
-                    <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
-                    <div class="relative z-50 px-8 bg-white">
-                        <h1 class="pb-6 text-5xl font-bold">Hi, I'm Ysa!</h1>
-                        <h2 class="pb-3 font-medium text-md "><span class="italic font-bold">about me</span>  •  YSABEL DINSAY</h2>
-                        <p class="text-xl font-medium">Thanks for stopping by! Here's a bit about me.</p>
-                    </div>
-                    <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
-                </div>
+<SectionWrapper>
+    <div class="relative z-40 md:-mb-24">
+        <div class="flex flex-col items-center justify-center max-w-2xl m-auto md:grid md:grid-cols-4">
+            <div class="-mb-8 -ml-8 md:mb-8 md:-ml-32 md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-2">
+                <img src={about_me} alt="">
             </div>
-        </div>
-        
-        <div class="relative z-50 overflow-clip md:-mb-24">
-            <div class="relative z-50 flex flex-col items-center justify-center max-w-2xl m-auto md:-mb-36 md:grid md:grid-cols-6">
-                <div class="-mb-8 md:mb-8 md:-mr-32 md:col-start-3 md:col-end-7 md:row-start-1 md:row-end-2">
-                    <img src={acads} alt="">
-                </div>
-                <div class="max-w-96 md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
-                    <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
-                    <div class="relative z-50 px-8 bg-white">
-                        <h1 class="pb-6 text-2xl font-bold">My Academic Life</h1>
-                        <p class="text-lg font-medium">I graduated summa cum laude from De La Salle University Manila with a Major in Psychology. Passionate about the human mind, I have taken up volunteer research positions at Yale University’s Early Childhood Education Center in 2016 and 2019.</p>
-                    </div>
-                    <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
-                </div>
-            </div>
-    
-            <div class="relative z-20 flex flex-col items-center justify-center max-w-2xl m-auto md:grid md:grid-cols-6">
-                <div class="-mb-8 md:-mr-8 md:mb-0 md:-ml-36 md:col-start-1 md:col-end-5 md:row-start-1 md:row-end-2">
-                    <img src={career} alt="">
-                </div>
-                <div class="max-w-96 md:col-start-3 md:col-end-8 md:row-start-1 md:row-end-2">
-                    <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
-                    <div class="relative z-50 px-8 bg-white">
-                        <h1 class="pb-6 text-2xl font-bold">My Early Career</h1>
-                        <p class="text-lg font-medium">Currently, my career focuses on marketing and product development. My experience analyzing consumer trends has given me a deeper insight into the motivations behind our purchasing habits. At the heart of it is the need to belong and to earn respect.</p>
-                    </div>
-                    <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
-                </div>
-            </div>
-        </div>
-    
-        <div class="relative z-40 flex flex-col justify-center py-8 md:flex-row">
-            <img class="max-w-xs mx-auto -mb-32 sm:hidden" src={boquet_up} alt="">
-            <div class="items-center hidden -mr-32 md:flex desktop max-w-80">
-                <img src={boquet_left} alt="">
-            </div>
-            <div class="flex flex-col items-center justify-center max-w-xl mx-auto lg:mx-0">
+            <div class="max-w-96 md:col-start-3 md:col-end-5 md:row-start-1 md:row-end-2">
                 <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
-                <div class="relative z-50 max-w-4xl px-8 bg-white">
-                    <h1 class="pb-6 text-2xl font-bold">Retail Therapy is for you</h1>
-                    <p class="text-lg font-medium">I created Retail Therapy because I want to inform people of these tendencies. We live in unpredictable economic times and as a member of Gen Z, the “buy everything, own nothing” generation, I know the allure of hyper-consumerism all too well. Despite what we like to believe, we are completely irrational beings. Being aware of it is the first step. I can help you there.</p>
+                <div class="relative z-50 px-8 bg-white">
+                    <h1 class="pb-6 text-5xl font-bold">Hi, I'm Ysa!</h1>
+                    <h2 class="pb-3 font-medium text-md "><span class="italic font-bold">about me</span>  •  YSABEL DINSAY</h2>
+                    <p class="text-xl font-medium">Thanks for stopping by! Here's a bit about me.</p>
                 </div>
                 <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
             </div>
-            <div class="items-center hidden -ml-32 md:flex max-w-80">
-                <img src={boquet_right} alt="">
-            </div>
-            <img class="max-w-xs mx-auto -mt-32 sm:hidden" src={boquet_down} alt="">
         </div>
     </div>
     
-    <img class="tear-south" src={tear_south_base_offwhite} alt="">
-</section>
+    <div class="relative z-50 overflow-clip md:-mb-24">
+        <div class="relative z-50 flex flex-col items-center justify-center max-w-2xl m-auto md:-mb-36 md:grid md:grid-cols-6">
+            <div class="-mb-8 md:mb-8 md:-mr-32 md:col-start-3 md:col-end-7 md:row-start-1 md:row-end-2">
+                <img src={acads} alt="">
+            </div>
+            <div class="max-w-96 md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
+                <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
+                <div class="relative z-50 px-8 bg-white">
+                    <h1 class="pb-6 text-2xl font-bold">My Academic Life</h1>
+                    <p class="text-lg font-medium">I graduated summa cum laude from De La Salle University Manila with a Major in Psychology. Passionate about the human mind, I have taken up volunteer research positions at Yale University’s Early Childhood Education Center in 2016 and 2019.</p>
+                </div>
+                <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
+            </div>
+        </div>
+
+        <div class="relative z-20 flex flex-col items-center justify-center max-w-2xl m-auto md:grid md:grid-cols-6">
+            <div class="-mb-8 md:-mr-8 md:mb-0 md:-ml-36 md:col-start-1 md:col-end-5 md:row-start-1 md:row-end-2">
+                <img src={career} alt="">
+            </div>
+            <div class="max-w-96 md:col-start-3 md:col-end-8 md:row-start-1 md:row-end-2">
+                <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
+                <div class="relative z-50 px-8 bg-white">
+                    <h1 class="pb-6 text-2xl font-bold">My Early Career</h1>
+                    <p class="text-lg font-medium">Currently, my career focuses on marketing and product development. My experience analyzing consumer trends has given me a deeper insight into the motivations behind our purchasing habits. At the heart of it is the need to belong and to earn respect.</p>
+                </div>
+                <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="relative z-40 flex flex-col justify-center py-8 md:flex-row">
+        <img class="max-w-xs mx-auto -mb-32 sm:hidden" src={boquet_up} alt="">
+        <div class="items-center hidden -mr-32 md:flex desktop max-w-80">
+            <img src={boquet_left} alt="">
+        </div>
+        <div class="flex flex-col items-center justify-center max-w-xl mx-auto lg:mx-0">
+            <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
+            <div class="relative z-50 max-w-4xl px-8 bg-white">
+                <h1 class="pb-6 text-2xl font-bold">Retail Therapy is for you</h1>
+                <p class="text-lg font-medium">I created Retail Therapy because I want to inform people of these tendencies. We live in unpredictable economic times and as a member of Gen Z, the “buy everything, own nothing” generation, I know the allure of hyper-consumerism all too well. Despite what we like to believe, we are completely irrational beings. Being aware of it is the first step. I can help you there.</p>
+            </div>
+            <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
+        </div>
+        <div class="items-center hidden -ml-32 md:flex max-w-80">
+            <img src={boquet_right} alt="">
+        </div>
+        <img class="max-w-xs mx-auto -mt-32 sm:hidden" src={boquet_down} alt="">
+    </div>
+</SectionWrapper>
 
 <style>
     /* your styles go here */
