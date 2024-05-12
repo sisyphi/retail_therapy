@@ -8,6 +8,8 @@
     import tear_south_sm_offwhite from '$lib/images/tear-south-sm-offwhite.png';
     
     import SectionWrapper from '$lib/components/SectionWrapper.svelte';
+    import CardWrapper from '$lib/components/CardWrapper.svelte';
+
 </script>
 
 <SectionWrapper>
@@ -16,14 +18,14 @@
             <img src={boquet_left} alt="">
         </div>
         <div class="flex flex-col items-center justify-center max-w-96">
-            <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
-            <div class="relative z-50 px-8 bg-white">
-                <h1 class="pb-6 text-5xl font-bold">retail therapy.</h1>
-                <h2 class="pb-3 font-medium text-md "><span class="italic font-bold">blog</span>  •  by  •  YSABEL DINSAY</h2>
-                <h2 class="pb-5 font-medium text-md">re•tail ther•a•py    ||    /ˈrē-ˌtāl ˈTHerəpē/</h2>
-                <p class="text-xl font-medium">a monthly blog focused on making you a smarter consumer one story at a time.</p>
-            </div>
-            <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
+            <CardWrapper>
+                <div class="relative z-50 px-8 py-4 bg-white">
+                    <h1 class="pb-6 text-5xl font-bold">retail therapy.</h1>
+                    <h2 class="pb-3 font-medium text-md "><span class="italic font-bold">blog</span>  •  by  •  YSABEL DINSAY</h2>
+                    <h2 class="pb-5 font-medium text-md">re•tail ther•a•py    ||    /ˈrē-ˌtāl ˈTHerəpē/</h2>
+                    <p class="text-xl font-medium">a monthly blog focused on making you a smarter consumer one story at a time.</p>
+                </div>
+            </CardWrapper>
         </div>
         <div class="flex items-center -ml-32 desktop max-w-80">
             <img src={boquet_right} alt="">
