@@ -11,7 +11,7 @@
 </script>
 
 <header class="relative z-10 flex flex-col justify-center">
-    <div class="z-50 flex justify-between px-4 pt-4 text-center mobile-header md:px-8 lg:px-20 xl:px-48 bg-[#F8F1E7]">
+    <div class="z-50 flex justify-between px-4 pt-4 text-center mobile-header md:px-8 lg:px-20 xl:px-48 bg-offwhite">
         <div class="flex mobile-logo-section">
             <a on:click={()=>(isMenuOpen = false)} href="/">
                 <logo class="flex">
@@ -37,7 +37,7 @@
                 <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option" href="/about">
                     <li>about me</li>
                 </a>
-                <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option md:bg-[#2A2A2A] md:text-white md:border-[0.5rem] md:border-[#2A2A2A]" href="/contact">
+                <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option md:bg-offblack md:text-white md:border-[0.5rem] md:border-offblack" href="/contact">
                     <li>contact me</li>
                 </a>
             </ul>

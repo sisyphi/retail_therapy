@@ -10,7 +10,7 @@
 
 <footer>
     <img class="relative z-0 transform bg-transparent rotate-180 -mb-0.5 md:-mb-4 lg:-mb-6" src={tear_south_offwhite} alt="">
-    <div class="relative z-10 flex flex-col justify-center px-8 pb-4 sm:flex-row sm:justify-between md:px-8 lg:px-20 xl:px-48 bg-[#F8F1E7]">
+    <div class="relative z-10 flex flex-col justify-center px-8 pb-4 sm:flex-row sm:justify-between md:px-8 lg:px-20 xl:px-48 bg-offwhite">
         <div class="my-4">
             <div class="flex justify-center pb-4 sm:justify-normal">
                 <a href="/">
