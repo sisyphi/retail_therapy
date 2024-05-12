@@ -1,5 +1,5 @@
 <script>
-    import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
+    import tear_south_offwhite from '$lib/images/tear-south-offwhite.png';
 
     import Logo from '$lib/components/Logo.svelte';
     
@@ -43,7 +43,7 @@
             </ul>
         </nav>
     </div>
-    <img class="relative z-0 transform bg-transparent -mt-0.5 md:-mt-4 lg:-mt-6" src={tear_south_base_offwhite} alt="">
+    <img class="relative z-0 transform bg-transparent -mt-0.5 md:-mt-4 lg:-mt-6" src={tear_south_offwhite} alt="">
 </header>
 
 <style>
