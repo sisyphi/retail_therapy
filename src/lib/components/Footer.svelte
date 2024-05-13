@@ -22,9 +22,9 @@
             <div class="flex justify-center pb-4 sm:justify-normal">
                 <a class="text-sm hover:underline" href="mailto:maria.ysabel.dinsay@gmail.com">maria.ysabel.dinsay@gmail.com</a>
             </div>
-            <div class="flex justify-center sm:justify-normal">
-                <a class="mx-2 size-6" href="https://www.linkedin.com/in/ysabel-dinsay/"><img src={linkedin_icon_graphic} alt="Linkedin logo"></a>
-                <a class="mx-2 size-6" href="https://www.instagram.com/ysabeldinsay/"><img src={ig_icon_graphic} alt="Instagram logo"></a>
+            <div class="flex justify-center gap-4 sm:justify-normal">
+                <a class="size-6" href="https://www.linkedin.com/in/ysabel-dinsay/"><img src={linkedin_icon_graphic} alt="Linkedin logo"></a>
+                <a class="size-6" href="https://www.instagram.com/ysabeldinsay/"><img src={ig_icon_graphic} alt="Instagram logo"></a>
             </div>
         </div>
         <div class="my-4">
