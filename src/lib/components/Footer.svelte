@@ -4,8 +4,6 @@
     import tear_south_offwhite from '$lib/images/tear-south-offwhite.png';
 
     import Logo from '$lib/components/Logo.svelte';
-
-    let isMenuOpen = false;
 </script>
 
 <footer>
