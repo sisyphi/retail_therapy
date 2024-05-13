@@ -41,7 +41,7 @@
             <div class="relative z-40 px-8 pt-24 lg:px-12 bg-offwhite">
                 <h1 class="pb-6 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
                 <p class="pb-6 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted blue. I read the tag and like it’s fate, I see the words “high-support.” It’s just what I need – but wait...</p>
-                <a class="text-2xl" href="articles/impulse_buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
+                <a class="text-2xl" href="articles/impulse-buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
             </div>
             <img class="z-10 tear-south-sm" src={tear_south_sm_offwhite} alt="">
         </div>
@@ -52,7 +52,7 @@
             <div class="relative z-40 px-8 pt-24 lg:px-12 bg-offwhite">
                 <h1 class="pb-6 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
                 <p class="pb-6 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted blue. I read the tag and like it’s fate, I see the words “high-support.” It’s just what I need – but wait...</p>
-                <a class="text-2xl" href="articles/impulse_buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
+                <a class="text-2xl" href="articles/impulse-buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
             </div>
             <img class="z-10 tear-south-sm" src={tear_south_sm_offwhite} alt="">
         </div>
