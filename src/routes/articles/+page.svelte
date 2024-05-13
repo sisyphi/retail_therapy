@@ -17,7 +17,7 @@
                 <div class="p-4 md:pl-2 md:pr-4 md:flex md:flex-col md:justify-center">
                     <h1 class="pb-4 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
                     <p class="pb-4 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted...</p>
-                    <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white w-36 hover:underline bg-[#2A2A2A] border-2 border-[#2A2A2A]">read more</div></a>
+                    <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white border-2 w-36 hover:underline bg-offblack border-offblack">read more</div></a>
                 </div>
             </div>
             <img class="relative z-10 tear-south-base" src={tear_south_sm_white} alt="">
@@ -35,7 +35,7 @@
             <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
             <div class="relative z-40 p-4 pt-24 bg-white">
                 <h1 class="pb-4 text-lg">“I did a thing:” The science behind your impulse buys</h1>
-                <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white w-36 hover:underline bg-[#2A2A2A] border-2 border-[#2A2A2A]">read more</div></a>
+                <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white border-2 w-36 hover:underline bg-offblack border-offblack">read more</div></a>
             </div>
             <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
         </div>
@@ -47,7 +47,7 @@
             <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
             <div class="relative z-40 p-4 pt-24 bg-white">
                 <h1 class="pb-4 text-lg">“I did a thing:” The science behind your impulse buys</h1>
-                <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white w-36 hover:underline bg-[#2A2A2A] border-2 border-[#2A2A2A]">read more</div></a>
+                <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white border-2 w-36 hover:underline bg-offblack border-offblack">read more</div></a>
             </div>
             <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
         </div>
@@ -59,7 +59,7 @@
             <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
             <div class="relative z-40 p-4 pt-24 bg-white">
                 <h1 class="pb-4 text-lg">“I did a thing:” The science behind your impulse buys</h1>
-                <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white w-36 hover:underline bg-[#2A2A2A] border-2 border-[#2A2A2A]">read more</div></a>
+                <a class="text-lg" href="articles/impulse_buy"><div class="text-center text-white border-2 w-36 hover:underline bg-offblack border-offblack">read more</div></a>
             </div>
             <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
         </div>

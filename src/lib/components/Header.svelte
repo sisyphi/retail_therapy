@@ -1,9 +1,9 @@
 <script>
+    import tear_south_offwhite from '$lib/images/tear-south-offwhite.png';
+
     import Logo from '$lib/components/Logo.svelte';
-    import tear_south_base_offwhite from '$lib/images/tear-south-base-offwhite.png';
     
-    
-    let isMenuOpen = false;
+    export let isMenuOpen = false;
 
     function toggleMenu() {
         isMenuOpen = !isMenuOpen;
@@ -11,7 +11,7 @@
 </script>
 
 <header class="relative z-10 flex flex-col justify-center">
-    <div class="z-50 flex justify-between px-4 pt-4 text-center mobile-header md:px-8 lg:px-20 xl:px-48 bg-[#F8F1E7]">
+    <div class="z-50 flex justify-between px-4 pt-4 text-center mobile-header md:px-8 lg:px-20 xl:px-48 bg-offwhite">
         <div class="flex mobile-logo-section">
             <a on:click={()=>(isMenuOpen = false)} href="/">
                 <logo class="flex">
@@ -37,13 +37,13 @@
                 <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option" href="/about">
                     <li>about me</li>
                 </a>
-                <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option md:bg-[#2A2A2A] md:text-white md:border-[0.5rem] md:border-[#2A2A2A]" href="/contact">
+                <a on:click={()=>(isMenuOpen = false)} class="hover:underline mobile-nav-option md:bg-offblack md:text-white md:border-[0.5rem] md:border-offblack" href="/contact">
                     <li>contact me</li>
                 </a>
             </ul>
         </nav>
     </div>
-    <img class="relative z-0 transform bg-transparent -mt-0.5 md:-mt-4 lg:-mt-6" src={tear_south_base_offwhite} alt="">
+    <img class="relative z-0 transform bg-transparent -mt-0.5 md:-mt-4 lg:-mt-6" src={tear_south_offwhite} alt="">
 </header>
 
 <style>

@@ -8,6 +8,8 @@
     import tear_south_sm_offwhite from '$lib/images/tear-south-sm-offwhite.png';
     
     import SectionWrapper from '$lib/components/SectionWrapper.svelte';
+    import CardWrapper from '$lib/components/CardWrapper.svelte';
+
 </script>
 
 <SectionWrapper>
@@ -16,14 +18,14 @@
             <img src={boquet_left} alt="">
         </div>
         <div class="flex flex-col items-center justify-center max-w-96">
-            <img class="z-10 tear-north-sm" src={tear_south_sm_white} alt="">
-            <div class="relative z-50 px-8 bg-white">
-                <h1 class="pb-6 text-5xl font-bold">retail therapy.</h1>
-                <h2 class="pb-3 font-medium text-md "><span class="italic font-bold">blog</span>  •  by  •  YSABEL DINSAY</h2>
-                <h2 class="pb-5 font-medium text-md">re•tail ther•a•py    ||    /ˈrē-ˌtāl ˈTHerəpē/</h2>
-                <p class="text-xl font-medium">a monthly blog focused on making you a smarter consumer one story at a time.</p>
-            </div>
-            <img class="z-10 tear-south-sm" src={tear_south_sm_white} alt="">
+            <CardWrapper>
+                <div class="relative z-50 px-8 py-4 bg-white">
+                    <h1 class="pb-6 text-5xl font-bold">retail therapy.</h1>
+                    <h2 class="pb-3 font-medium text-md "><span class="italic font-bold">blog</span>  •  by  •  YSABEL DINSAY</h2>
+                    <h2 class="pb-5 font-medium text-md">re•tail ther•a•py    ||    /ˈrē-ˌtāl ˈTHerəpē/</h2>
+                    <p class="text-xl font-medium">a monthly blog focused on making you a smarter consumer one story at a time.</p>
+                </div>
+            </CardWrapper>
         </div>
         <div class="flex items-center -ml-32 desktop max-w-80">
             <img src={boquet_right} alt="">
@@ -36,10 +38,10 @@
         <div class="justify-center mb-4 md:my-4 md:mx-8 md:max-w-96">
             <img class="relative z-50 mx-auto -mb-32 max-w-72 md:max-w-none md:px-8" src={featured_article} alt="">
             <img class="z-10 tear-north-sm" src={tear_south_sm_offwhite} alt="">
-            <div class="relative z-40 px-8 lg:px-12 pt-24 bg-[#F8F1E7]">
+            <div class="relative z-40 px-8 pt-24 lg:px-12 bg-offwhite">
                 <h1 class="pb-6 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
                 <p class="pb-6 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted blue. I read the tag and like it’s fate, I see the words “high-support.” It’s just what I need – but wait...</p>
-                <a class="text-2xl" href="articles/impulse_buy"><div class="text-center text-white w-44 hover:underline bg-[#2A2A2A] border-[0.5rem] border-[#2A2A2A]">read more</div></a>
+                <a class="text-2xl" href="articles/impulse_buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
             </div>
             <img class="z-10 tear-south-sm" src={tear_south_sm_offwhite} alt="">
         </div>
@@ -47,10 +49,10 @@
         <div class="justify-center mt-4 md:my-4 md:mx-8 md:max-w-96">
             <img class="relative z-50 mx-auto -mb-32 max-w-72 md:max-w-none md:px-8" src={featured_article} alt="">
             <img class="z-10 tear-north-sm" src={tear_south_sm_offwhite} alt="">
-            <div class="relative z-40 px-8 lg:px-12 pt-24 bg-[#F8F1E7]">
+            <div class="relative z-40 px-8 pt-24 lg:px-12 bg-offwhite">
                 <h1 class="pb-6 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
                 <p class="pb-6 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted blue. I read the tag and like it’s fate, I see the words “high-support.” It’s just what I need – but wait...</p>
-                <a class="text-2xl" href="articles/impulse_buy"><div class="text-center text-white w-44 hover:underline bg-[#2A2A2A] border-[0.5rem] border-[#2A2A2A]">read more</div></a>
+                <a class="text-2xl" href="articles/impulse_buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
             </div>
             <img class="z-10 tear-south-sm" src={tear_south_sm_offwhite} alt="">
         </div>
@@ -58,7 +60,7 @@
 </section>
 
 <SectionWrapper>
-    <div class="overflow-clip py-6 md:flex md:justify-center bg-[#F8F1E7]">
+    <div class="py-6 overflow-clip md:flex md:justify-center bg-offwhite">
         <div class="justify-center mx-auto mt-4 -mb-32 md:-mb-0 max-w-96 md:my-4 md:mx-8">
             <img class="relative z-10 tear-north-sm" src={tear_south_sm_white} alt="">
             <div class="relative z-40 px-8 bg-white lg:px-12">
