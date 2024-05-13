@@ -4,6 +4,8 @@
     import tear_south_offwhite from '$lib/images/tear-south-offwhite.png';
 
     import Logo from '$lib/components/Logo.svelte';
+
+    export const prerender = true
 </script>
 
 <footer>
@@ -45,7 +47,7 @@
             </nav>
         </div>
         <div class="mx-auto my-4 md:mx-0 max-w-64">
-            <form action="/contact" name="netlify-email-sub-form" method="POST" data-netlify="true">
+            <form action="/contact" netlify name="netlify-email-sub-form" method="POST" data-netlify="true">
             <!-- <form action="/contact" name="netlify-email-sub-form" method="POST" netlify-honeypot="bot-field" data-netlify="true"> -->
                 <div class="flex flex-col gap-2">
                     <input type="hidden" name="form-name" value="netlify-email-sub-form" />
