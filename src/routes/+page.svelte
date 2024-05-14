@@ -1,5 +1,7 @@
 <script>
     import featured_article from '$lib/images/featured-article.png';
+    import the_rise_of_customization from '$lib/images/the-rise-of-customization.png';
+    
     import boquet_left from '$lib/images/boquet-left.png';
     import boquet_right from '$lib/images/boquet-right.png';
     import boquet_up from '$lib/images/boquet-up.png';
@@ -33,34 +35,37 @@
     </div>
 </SectionWrapper>
 
-<section class="my-4">
-    <div class="md:-mt-16 lg:-mt-16 md:flex md:flex-row md:justify-center">
+<!-- TODO: Refactor Section -->
+<SectionWrapper>
+    <div class="md:flex md:flex-row md:justify-center">
+        
         <div class="justify-center mb-4 md:my-4 md:mx-8 md:max-w-96">
-            <img class="relative z-50 mx-auto -mb-32 max-w-72 md:max-w-none md:px-8" src={featured_article} alt="">
-            <img class="z-10 tear-north-sm" src={tear_south_sm_offwhite} alt="">
-            <div class="relative z-40 px-8 pt-24 lg:px-12 bg-offwhite">
-                <h1 class="pb-6 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
-                <p class="pb-6 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted blue. I read the tag and like it’s fate, I see the words “high-support.” It’s just what I need – but wait...</p>
-                <a class="text-2xl" href="articles/impulse-buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
-            </div>
-            <img class="z-10 tear-south-sm" src={tear_south_sm_offwhite} alt="">
+            <CardWrapper>
+                <img class="relative z-50 pt-4 mx-auto size-72 max-w-72 md:max-w-none md:px-8" src={featured_article} alt="" width="382" height="382">
+                <div class="relative z-40 p-8 lg:px-12">
+                    <h1 class="pb-6 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
+                    <p class="pb-6 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted blue. I read the tag and like it’s fate, I see the words “high-support.” It’s just what I need – but wait...</p>
+                    <a class="text-2xl" href="articles/impulse-buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
+                </div>
+            </CardWrapper>
         </div>
 
-        <div class="justify-center mt-4 md:my-4 md:mx-8 md:max-w-96">
-            <img class="relative z-50 mx-auto -mb-32 max-w-72 md:max-w-none md:px-8" src={featured_article} alt="">
-            <img class="z-10 tear-north-sm" src={tear_south_sm_offwhite} alt="">
-            <div class="relative z-40 px-8 pt-24 lg:px-12 bg-offwhite">
-                <h1 class="pb-6 text-2xl">“I did a thing:” The science behind your impulse buys</h1>
-                <p class="pb-6 text-sm">Last week, I walked into an Adidas to kill some time. I like to work out and it was time to buy a more supportive sports bra soon. Time to canvas, I thought. So I walk into the women’s section and that’s when I see it in my favorite shade of muted blue. I read the tag and like it’s fate, I see the words “high-support.” It’s just what I need – but wait...</p>
-                <a class="text-2xl" href="articles/impulse-buy"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
-            </div>
-            <img class="z-10 tear-south-sm" src={tear_south_sm_offwhite} alt="">
+        <div class="justify-center mb-4 md:my-4 md:mx-8 md:max-w-96">
+            <CardWrapper>
+                <img class="relative z-50 pt-4 mx-auto size-72 max-w-72 md:max-w-none md:px-8" src={the_rise_of_customization} alt="" width="382" height="382">
+                <div class="relative z-40 p-8 lg:px-12">
+                    <h1 class="pb-6 text-2xl">“The rise of customization and why we crave expression </h1>
+                    <p class="pb-6 text-sm">Crocs, Sunnies Flasks, Viajecito, Louis Vuitton. All of these brands have one thing in common. They all offer customization. We all want to stand out. And in a world that’s 8 billion people strong, that means maximalism is so in. Gone are the days of decorating your home like a contemporary blank canvas under the guise of simplicity...</p>
+                    <a class="text-2xl" href="articles/the-rise-of-customization"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
+                </div>
+            </CardWrapper>
         </div>
+        
     </div>
-</section>
+</SectionWrapper>
 
 <SectionWrapper>
-    <div class="py-6 overflow-clip md:flex md:justify-center bg-offwhite">
+    <div class="py-4 overflow-clip md:flex md:justify-center bg-offwhite">
         <div class="justify-center mx-auto mt-4 -mb-32 md:-mb-0 max-w-96 md:my-4 md:mx-8">
             <img class="relative z-10 tear-north-sm" src={tear_south_sm_white} alt="">
             <div class="relative z-40 px-8 bg-white lg:px-12">
