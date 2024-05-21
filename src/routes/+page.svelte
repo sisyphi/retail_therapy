@@ -55,7 +55,7 @@
                 <img class="relative z-50 pt-4 mx-auto size-72 max-w-72 md:max-w-none md:px-8" src={the_rise_of_customization} alt="" width="382" height="382">
                 <div class="relative z-40 p-8 lg:px-12">
                     <h1 class="pb-6 text-2xl">“The rise of customization and why we crave expression </h1>
-                    <p class="pb-6 text-sm">Crocs, Sunnies Flasks, Viajecito, Louis Vuitton. All of these brands have one thing in common. They all offer customization. We all want to stand out. And in a world that’s 8 billion people strong, that means maximalism is so in. Gone are the days of decorating your home like a contemporary blank canvas under the guise of simplicity...</p>
+                    <p class="pb-6 text-sm">Crocs, Sunnies Flasks, Viajecit o, Louis Vuitton. All of these brands have one thing in common. They all offer customization. We all want to stand out. And in a world that’s 8 billion people strong, that means maximalism is so in. Gone are the days of decorating your home like a contemporary blank canvas under the guise of simplicity...</p>
                     <a class="text-2xl" href="articles/the-rise-of-customization"><div class="text-center text-white w-44 hover:underline bg-offblack border-[0.5rem] border-offblack">read more</div></a>
                 </div>
             </CardWrapper>
